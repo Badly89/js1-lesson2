@@ -1,4 +1,6 @@
-#result {
+#result,
+#result5,
+#result6 {
     padding-bottom: 25px;
 }
 
@@ -9,4 +11,13 @@
 .vvod {
     margin-bottom: 25px;
 
+}
+
+.main {
+    display: flex;
+
+}
+
+.math {
+    padding-right: 55px;
 }

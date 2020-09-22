@@ -10,47 +10,48 @@
 </head>
 
 <body>
+    <div class="main">
+        <div class="math">
+            <div class="vvod">
+                <h1>решение задачи №3</h1>
+                <label>Первое число</label> <input type="text" id="first_number">
+                <label>Второе число</label> <input type="text" id="second_number">
+                <label>Укажите операцию (+, -, *, /)</label> <input type="text" id="mathoper">
+            </div>
+            <div>
+                <div>
+                    <button onclick="operations()" class="btn">Вычислить</button>
+                    <div id="result"></div>
+                </div>
+                <div>
+                    <h1>Решение задачи 5</h1>
+                    <button onclick="calcul_sum()" class="btn" id="summa">Сумма чисел</button>
+                    <button onclick="calcul_dif()" class="btn" id="deffer">Разница чисел</button>
+                    <button onclick="calcul_mult()" class="btn" id="mult">Произведение чисел</button>
+                    <button onclick="calcul_devis()" class="btn" id="division">Деление чисел</button>
 
-    <div class="vvod">
-        <h1>решение задачи №3</h1>
-        <label>Первое число</label> <input type="text" id="first_number">
-        <label>Второе число</label> <input type="text" id="second_number">
-        <label>Укажите операцию (+, -, *, /)</label> <input type="text" id="mathoper">
+                    <div id="result5"></div>
+                </div>
 
+                <div>
+                    <h1>Решение задачи 6</h1>
+                    <button onclick="multiOpercall()" class="btn">Функция с 3мя агрументами</button>
+                    <div id="result6"></div>
+                </div>
+            </div>
+        </div>
 
+        <div class="resh4">
+            <h1>Решение задачи 4</h1>
+            <button value="Refresh Page" onClick="window.location.reload();">Обновить страницу</button>
+            <h1>Работа оператора switch</h1>
 
+            <p>
+                <script src="script.js"></script>
+            </p>
+
+        </div>
     </div>
-    <div>
-        <div>
-            <p>Решение задачи 3.1</p>
-            <button onclick="operations()" class="btn">Вычислить</button>
-        </div>
-        <div>
-            <p>Решение задачи 5</p>
-            <button onclick="calcul_sum()" class="btn" id="summa">Сумма чисел</button>
-            <button onclick="calcul_dif()" class="btn" id="deffer">Разница чисел</button>
-            <button onclick="calcul_mult()" class="btn" id="mult">Произведение чисел</button>
-            <button onclick="calcul_devis()" class="btn" id="division">Деление чисел</button>
-        </div>
-
-        <div>
-            <p>Решение задачи 6</p>
-            <button onclick="multiOpercall()" class="btn">Функция с 3мя агрументами</button>
-        </div>
-    </div>
-    <div id="result"></div>
-
-
-    <p>Решение задачи 4</p>
-    <button value="Refresh Page" onClick="window.location.reload();">Обновить страницу</button>
-    <h1>Работа оператора switch</h1>
-
-    <p>
-        <script src="script.js"></script>
-    </p>
-
-
-
 
 
 </body>
